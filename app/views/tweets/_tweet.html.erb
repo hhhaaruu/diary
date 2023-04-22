@@ -15,11 +15,16 @@
           <% end %>
         </ul>
       </div>
-      <p>Title：<%= tweet.name %><br>内容：<%= tweet.text %></p>
       <span class="name">
        <a href="/users/<%= tweet.user_id%>">
          <span>投稿者</span> <%= tweet.user.nickname %><br>
        </a>
        <%= tweet.date %>
       </span>
-    </div>
+</div>
+<div class="titles" >
+  <p>Title：<%= tweet.name %></p>
+</div>
+<div class="texts">
+  <p> 日記：<%= tweet.text %></p>
+</div>

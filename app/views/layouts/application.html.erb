@@ -12,6 +12,7 @@
   <body>
     <header class="header">
       <div class="header__bar row">
+      <%= link_to "Diary", root_path, class: "roots" %>
         <% if user_signed_in? %>
           <div class="user_nav grid-6">
             <span><%= current_user.nickname %>
