@@ -4,6 +4,7 @@ ja:
       user:
         nickname: ニックネーム
       tweet:
-        text: テキスト
+        name: タイトル
+        text: 日記
         image: 画像
         date: 日付
